@@ -2,7 +2,7 @@ Geting started with Create React APP
 
 
 
-Website live link
+Website live link: https://author-react-project.netlify.app/
 
 
 
