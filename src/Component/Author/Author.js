@@ -22,7 +22,7 @@ const Author = () => {
         <div>
             <div className="row">
                 <div className="col-md-8">
-                    <div className="row row-cols-1 row-cols-md-3 g-4">
+                    <div className="row row-cols-1 row-cols-md-3 g-4 container">
                         
                         {
                   cards.map(card=> <Details 
@@ -33,7 +33,7 @@ const Author = () => {
                 }
                    </div>
                 </div>
-                <div className="col-md-4 border">
+                <div className="col-md-4 border container">
                     <Cart cart={cart}></Cart>
                 </div>
                 
