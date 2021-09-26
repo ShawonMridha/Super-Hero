@@ -1,5 +1,14 @@
+/* Header Component page */
 .header-title{
     text-align: center;
     background-color: black;
     color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.color-header{
+    color: goldenrod;
+}
+.budget-color{
+    color: #0984e3;
 }

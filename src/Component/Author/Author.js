@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Cart from '../Cart/Cart';
 import Details from '../Details/Details';
-
+// Author data component area
 const Author = () => {
     const[cards, setCard] =useState([]);
     const[cart, setCart] = useState([]);

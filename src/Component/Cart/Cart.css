@@ -1,4 +1,7 @@
-.space{
-    background-color: tomato;
-    width: 500px;
+/* card component css page */
+.card-color{
+    background-color: #dfe6e9;
+}
+.author-color{
+    color: #0984e3;
 }

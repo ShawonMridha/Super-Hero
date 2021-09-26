@@ -1,3 +1,4 @@
+// Cart section
 import React from 'react';
 import './Cart.css'
 
@@ -13,12 +14,12 @@ const Cart = (props) => {
     }
     return (
         
-        <div>
-            <h1>Author Added:{props.cart.length}</h1>
+        <div className="card-color">
+            <h2 className="author-color">Author Added:{props.cart.length}</h2>
             <br />
             <h2>Total Cost:${total}</h2>
            {
-                names.map(name=> <p key={name.id} className="bg-dark text-light rounded text-center w-75">{name.name}</p>)
+                names.map(name=> <p key={name.age} className="bg-dark text-light rounded text-center w-75">{name.name}</p>)
            }
         </div>
         
